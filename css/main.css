@@ -1,0 +1,46 @@
+/*! main.css */
+
+/* Global
+   ========================================================================== */
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #1C1B1B; 
+}
+
+
+/* Header
+   ========================================================================== */
+header {
+    padding: 50px 100px;
+}
+
+header>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>ul>li {
+    float: left;
+}
+
+header .logo {
+    justify-content: flex-start;
+}
+
+
+
+/* Buttons
+   ========================================================================== */
+
+.btn-link {
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+}
+
+.btn-link > a {
+    color: white; 
+}
