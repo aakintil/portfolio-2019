@@ -1,13 +1,48 @@
 /*! main.css */
 
-/* Global
+/* Fonts
    ========================================================================== */
-a {
-    text-decoration: none;
+
+@font-face {
+    font-family: 'EuclidSquare';
+    font-weight: 100;
+    src: url('../fonts/EuclidSquare-Light-Web/EuclidSquare-Light-WebS.eot?') format('eot'), url('../fonts/EuclidSquare-Light-Web/EuclidSquare-Light-WebS.woff') format('woff'), url('../fonts/EuclidSquare-Light-Web/EuclidSquare-Light-WebS.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'EuclidSquare';
+    font-weight: 300;
+    src: url('../fonts/EuclidSquare-Regular-Web/EuclidSquare-Regular-WebS.eot?') format('eot'), url('../fonts/EuclidSquare-Regular-Web/EuclidSquare-Regular-WebS.woff') format('woff'), url('../fonts/EuclidSquare-Regular-Web/EuclidSquare-Regular-WebS.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EuclidSquare';
+    font-weight: 500;
+    src: url('../fonts/EuclidSquare-Medium-Web/EuclidSquare-Medium-WebS.eot?') format('eot'), url('../fonts/EuclidSquare-Medium-Web/EuclidSquare-Medium-WebS.woff') format('woff'), url('../fonts/EuclidSquare-Medium-Web/EuclidSquare-Medium-WebS.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EuclidSquare';
+    font-weight: 700;
+    src: url('../fonts/EuclidSquare-Bold-Web/EuclidSquare-Bold-WebS.eot?') format('eot'), url('../fonts/EuclidSquare-Bold-Web/EuclidSquare-Bold-WebS.woff') format('woff'), url('../fonts/EuclidSquare-Bold-Web/EuclidSquare-Bold-WebS.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EuclidSquare';
+    font-weight: 900;
+    src: url('../fonts/EuclidSquare-Semibold-Web/EuclidSquare-Semibold-WebS.eot?') format('eot'), url('../fonts/EuclidSquare-Semibold-Web/EuclidSquare-Semibold-WebS.woff') format('woff'), url('../fonts/EuclidSquare-Semibold-Web/EuclidSquare-Semibold-WebS.ttf') format('truetype');
+}
+
+
+/* Global
+   ========================================================================== */
 body {
-    background: #1C1B1B; 
+    background: #1C1B1B;
+    font-family: "EuclidSquare";
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -37,10 +72,10 @@ header .logo {
    ========================================================================== */
 
 .btn-link {
-    text-transform: uppercase; 
-    letter-spacing: 2.5px; 
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 
-.btn-link > a {
-    color: white; 
+.btn-link>a {
+    color: white;
 }
