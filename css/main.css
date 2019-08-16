@@ -49,14 +49,21 @@ a {
     text-decoration: none;
 }
 
+
 /* Fonts
    ========================================================================== */
-h1 {}
+h1 {
+    font-size: 64px;
+    font-weight: 100;
+}
 
 h5 {
-    font-size: 34px;
-    font-weight: 700
+    font-size: 24px;
+    font-weight: 400
 }
+
+.font-white {
+    color: #FDFDFD;
 }
 
 
@@ -65,6 +72,8 @@ h5 {
    ========================================================================== */
 .section {
     padding: 50px 100px;
+    display: flex; 
+    flex-direction: column; 
 }
 
 
@@ -78,7 +87,6 @@ h5 {
     align-items: center;
     font-size: 10px;
 }
-
 
 .btn-link {
     letter-spacing: 1px;
@@ -94,6 +102,22 @@ h5 {
     background: #F8101E;
     border-radius: 20px;
 }
+
+.btn-primary {
+    padding: 20px 50px;
+    color: #FDFDFD;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 14px; 
+    font-weight: 900;
+}
+
 
 .btn-link-contact-us {
     margin-left: auto;
