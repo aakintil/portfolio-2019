@@ -37,45 +37,102 @@
 /* Global
    ========================================================================== */
 body {
-    background: #1C1B1B;
+    background: #0F0E0E;
     font-family: "EuclidSquare";
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
 }
 
-
-/* Header
+/* Fonts
    ========================================================================== */
-header {
+h1 {}
+
+h5 {
+    font-size: 34px;
+    font-weight: 700
+}
+}
+
+
+
+/* Sections
+   ========================================================================== */
+.section {
     padding: 50px 100px;
 }
 
-header>ul {
+
+/* Buttons
+   ========================================================================== */
+.btn-small {
+    width: 125px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+.btn-link {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-link>a {
+    color: #FDFDFD;
+    font-weight: 700;
+}
+
+.btn-red-filled {
+    background: #F8101E;
+    border-radius: 20px;
+}
+
+.btn-link-contact-us {
+    margin-left: auto;
+}
+
+.btn-link-claron {
+    margin-left: auto;
+}
+
+
+
+/* Header
+   ========================================================================== */
+.section-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #0F0E0E;
+}
+
+.section-header>ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
-header>ul>li {
+.section-header>ul>li {
     float: left;
 }
 
-header .logo {
+.section-header .btn-link-logo {
     justify-content: flex-start;
 }
 
 
 
-/* Buttons
+/* Hero
    ========================================================================== */
-
-.btn-link {
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-}
-
-.btn-link>a {
-    color: white;
+.section-hero {
+    margin-top: 162px;
 }
