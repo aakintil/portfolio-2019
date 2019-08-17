@@ -268,3 +268,74 @@ h5 {
 .section-case-studies {
     background: #FDFDFD;
 }
+
+
+/* Case Studies
+   ========================================================================== */
+.section-select-clients {
+ background: #FDFDFD;
+}
+
+.section-case-studies-row {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 50px 0; 
+    position: absolute;
+    left: 0; 
+    width: 100%; 
+}
+
+.section-case-studies-container {
+    height: 650px; 
+}
+
+.section-case-studies-row:last-of-type {
+    margin-top: 350px;
+}
+
+
+.case-study {
+    width: 48%; 
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.case-study-title {
+    color: #FDFDFD; 
+    font-weight: 900; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+}
+
+.case-study.left {
+    left: 0; 
+}
+
+.case-study-gokada {
+    background: #67C198; 
+}
+
+
+.case-study-claron {
+    background: #FC722B; 
+}
+
+.case-study-freespira {
+    background: #09B4DC; 
+}
+
+.case-study-nike {
+    background: #AC88CF; 
+}
+
+
+
+
+
+
+.section-select-clients {
+    background: #0F0E0E; 
+}
