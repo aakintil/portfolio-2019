@@ -55,19 +55,19 @@ a {
 h1 {
     font-size: 64px;
     font-weight: 100;
-    line-height: 84px; 
+    line-height: 84px;
 }
 
 h2 {
-    font-size: 44px; 
+    font-size: 44px;
     font-weight: 100;
-    line-height: 64px; 
+    line-height: 64px;
 }
 
 h5 {
     font-size: 24px;
-    font-weight: 400; 
-    margin: 30px 0; 
+    font-weight: 400;
+    margin: 30px 0;
 }
 
 .font-white {
@@ -80,8 +80,8 @@ h5 {
    ========================================================================== */
 .section {
     padding: 50px 100px;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -122,7 +122,7 @@ h5 {
     align-items: center;
     text-align: center;
     display: flex;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: 900;
 }
 
@@ -144,6 +144,7 @@ h5 {
     width: 100%;
     top: 0;
     background: #0F0E0E;
+    z-index: 100; 
 }
 
 .section-header>ul {
@@ -166,12 +167,76 @@ h5 {
 /* Hero
    ========================================================================== */
 .section-hero {
-    margin-top: 162px;
+    margin-top: 100px;
+    height: 86vh; 
+    justify-content: center; 
 }
-
 
 /* Services
    ========================================================================== */
-   .section-services {
-    background: url(../img/); 
+.section-services {
+    background: url("../imgs/section-services.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.section-services > *:not(.section-services-overlay) {
+    z-index: 1;
+}
+
+.section-services-overlay {
+    width: 100%; 
+    height: 100%; 
+    background: #1C1B1B; 
+    opacity: 0.5;
+    position: absolute; 
+    top: 0;
+    left: 0; 
+}
+
+/* Service Detail
+   ========================================================================== */
+
+.section-services-detail {
+    background: #FDFDFD;
+    height: auto; 
+    flex-direction: column; 
+}
+
+.section-services-detail-row {
+    display: flex; 
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.services-detail-container {
+    color: #FDFDFD;
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: column; 
+    padding: 45px 25px;
+    background: #1C1B1B;
+    border-radius: 12px;
+    height: 400px;
+    width: 350px;
+}
+
+.services-detail-title {
+    font-weight: 300; 
+    font-size: 24px; 
+}
+
+.services-detail-description {
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin-top: auto; 
+}
+
+.services-detail-icon {
+    height: 80px; 
+    margin-top: auto;
 }
