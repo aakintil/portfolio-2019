@@ -79,7 +79,7 @@ h5 {
 /* Sections
    ========================================================================== */
 .section {
-    padding: 50px 100px;
+        padding: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -145,6 +145,7 @@ h5 {
     top: 0;
     background: #0F0E0E;
     z-index: 100;
+    padding: 50px 100px;
 }
 
 .section-header>ul {
@@ -205,7 +206,6 @@ h5 {
     background: #FDFDFD;
     height: auto;
     flex-direction: column;
-    padding: 100px 100px;
 }
 
 .section-services-detail-row {
@@ -252,7 +252,6 @@ h5 {
     color: #FDFDFD;
     display: flex;
     justify-content: center;
-    padding: 200px 100px;
     flex-direction: column;
     /* background: #1C1B1B;  */
 }
@@ -268,7 +267,7 @@ h5 {
 
 .section-case-studies {
     background: #FDFDFD;
-    padding: 200px 100px 50px 100px;
+    padding: 200px 200px 50px 200px;
 }
 
 .section-case-studies-row {
@@ -305,7 +304,7 @@ h5 {
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 5% 0; 
+    margin: 5% 0;
 }
 
 .case-study.left {
@@ -334,15 +333,15 @@ h5 {
 }
 
 .case-study-gokada .case-study-image {
-    width: 200px; 
+    width: 200px;
 }
 
 .case-study-freespira .case-study-image {
-    width: 500px; 
+    width: 500px;
 }
 
 .case-study-nike .case-study-image {
-    width: 500px; 
+    width: 500px;
 }
 
 
@@ -353,33 +352,46 @@ h5 {
    ========================================================================== */
 .section-select-clients {
     background: #0F0E0E;
-    padding: 200px 100px;
     height: auto;
-    color: #FDFDFD; 
+    color: #FDFDFD;
 }
-.select-clients-row {
-    display: flex; 
-    justify-content: space-between; 
-    margin: 100px 0; 
-    align-items: center; 
 
+.select-clients-row {
+    display: flex;
+    margin: 100px 0;
+    align-items: center;
 }
+
 .select-clients-logo {
-    width: 100px; 
-    height: auto; 
+    width: 150px;
+    height: auto;
     display: block;
 }
 
 .select-clients-logo-daimler {
-    height: 30px; 
+    height: 30px;
     width: auto;
+}
+
+.select-clients-logo-container {
+    width: 100%;
+    display: flex;
+}
+
+.select-clients-logo-container:nth-child(2) {
+    /* middle column icons */
+    justify-content: center;
+}
+
+.select-clients-logo-container:nth-child(3) {
+    /* right column client icons */
+    justify-content: flex-end;
 }
 
 
 /* Footer
    ========================================================================== */
-   .section-footer {
+.section-footer {
     background: #FDFDFD;
-    padding: 200px 100px;
     height: auto;
-   }
+}
