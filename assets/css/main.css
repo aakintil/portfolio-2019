@@ -205,6 +205,7 @@ h5 {
     background: #FDFDFD;
     height: auto;
     flex-direction: column;
+    padding: 100px 100px;
 }
 
 .section-services-detail-row {
@@ -249,17 +250,17 @@ h5 {
 .section-process {
     height: auto;
     color: #FDFDFD;
-    display: flex; 
-    justify-content: center; 
-    padding: 150px 100px; 
-    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    padding: 200px 100px;
+    flex-direction: column;
     /* background: #1C1B1B;  */
 }
 
 .section-process-image {
-    margin-top: 100px; 
+    margin-top: 100px;
     width: 600px;
-    align-self: center; 
+    align-self: center;
 }
 
 /* Case Studies
@@ -267,26 +268,20 @@ h5 {
 
 .section-case-studies {
     background: #FDFDFD;
-}
-
-
-/* Case Studies
-   ========================================================================== */
-.section-select-clients {
- background: #FDFDFD;
+    padding: 200px 100px 50px 100px;
 }
 
 .section-case-studies-row {
-    display: flex; 
-    justify-content: space-between; 
-    padding: 50px 0; 
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
     position: absolute;
-    left: 0; 
-    width: 100%; 
+    left: 0;
+    width: 100%;
 }
 
 .section-case-studies-container {
-    height: 650px; 
+    height: 650px;
 }
 
 .section-case-studies-row:last-of-type {
@@ -295,47 +290,96 @@ h5 {
 
 
 .case-study {
-    width: 48%; 
-    height: 300px; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    width: 48%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
 }
 
 .case-study-title {
-    color: #FDFDFD; 
-    font-weight: 900; 
-    letter-spacing: 1px; 
-    text-transform: uppercase; 
+    color: #FDFDFD;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5% 0; 
 }
 
 .case-study.left {
-    left: 0; 
+    left: 0;
 }
 
 .case-study-gokada {
-    background: #67C198; 
+    background: #67C198;
 }
 
 
 .case-study-claron {
-    background: #FC722B; 
+    background: #FC722B;
 }
 
 .case-study-freespira {
-    background: #09B4DC; 
+    background: #09B4DC;
 }
 
 .case-study-nike {
-    background: #AC88CF; 
+    background: #AC88CF;
+}
+
+.case-study-claron .case-study-image {
+    width: 250px;
+}
+
+.case-study-gokada .case-study-image {
+    width: 200px; 
+}
+
+.case-study-freespira .case-study-image {
+    width: 500px; 
+}
+
+.case-study-nike .case-study-image {
+    width: 500px; 
 }
 
 
 
 
 
-
+/* Select Clients
+   ========================================================================== */
 .section-select-clients {
-    background: #0F0E0E; 
+    background: #0F0E0E;
+    padding: 200px 100px;
+    height: auto;
+    color: #FDFDFD; 
 }
+.select-clients-row {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 100px 0; 
+    align-items: center; 
+
+}
+.select-clients-logo {
+    width: 100px; 
+    height: auto; 
+    display: block;
+}
+
+.select-clients-logo-daimler {
+    height: 30px; 
+    width: auto;
+}
+
+
+/* Footer
+   ========================================================================== */
+   .section-footer {
+    background: #FDFDFD;
+    padding: 200px 100px;
+    height: auto;
+   }
