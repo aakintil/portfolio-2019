@@ -229,11 +229,11 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 45px 25px;
+    padding: 55px 65px;
     background: #1C1B1B;
     border-radius: 12px;
-    height: 400px;
-    width: 350px;
+    height: 560px;
+    width: 40%;
 }
 
 .services-detail-title {
@@ -242,14 +242,14 @@ h5 {
 }
 
 .services-detail-description {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
     margin-top: auto;
 }
 
 .services-detail-icon {
-    height: 80px;
+    height: 120px;
     margin-top: auto;
 }
 
