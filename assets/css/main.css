@@ -101,10 +101,6 @@ h5 {
     text-transform: uppercase;
 }
 
-.btn-link>a {
-    color: #FDFDFD;
-    font-weight: 700;
-}
 
 .btn-red-filled {
     background: #F8101E;
@@ -137,6 +133,15 @@ h5 {
 
 
 
+/* General
+   ========================================================================== */
+
+.section-footer > *, 
+.section-case-studies > * {
+    color: #0F0E0E; 
+}
+
+
 /* Header
    ========================================================================== */
 .section-header {
@@ -145,7 +150,7 @@ h5 {
     top: 0;
     background: #0F0E0E;
     z-index: 100;
-    padding: 50px 100px;
+    padding: 50px 200px;
 }
 
 .section-header>ul {
@@ -161,6 +166,11 @@ h5 {
 
 .section-header .btn-link-logo {
     justify-content: flex-start;
+}
+
+.section-header .btn-link>a {
+    color: #FDFDFD;
+    font-weight: 700;
 }
 
 
@@ -394,4 +404,28 @@ h5 {
 .section-footer {
     background: #FDFDFD;
     height: auto;
+    padding-bottom: 0; 
+}
+
+.section-footer .btn-primary {
+    margin: 50px 0; 
+}
+
+.footer-links {
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(48,48,48,.1);
+}
+
+.footer-links .btn-link-logo {
+    justify-content: flex-start;
+}
+
+.footer-links .btn-link-logo > a {
+    color: #0F0E0E; 
+}
+
+.btn-social {
+    margin-left: auto; 
 }
