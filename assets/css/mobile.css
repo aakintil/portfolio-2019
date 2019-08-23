@@ -251,6 +251,11 @@
         display: flex;
     }
 
+    .select-clients-logo-container:nth-child(1) {
+        /* middle column icons */
+        justify-content: flex-start;
+    }
+
     .select-clients-logo-container:nth-child(2) {
         /* middle column icons */
         justify-content: center;
