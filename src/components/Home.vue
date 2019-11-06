@@ -1,22 +1,24 @@
 <template>
 <div>
-    <header class="section section-header">
-    <ul class="section-header-desktop-nav">
-      <li class="btn btn-link btn-small btn-link-logo"><a href="">ZeroDark</a></li>
-      <li class="btn btn-link btn-small btn-link-claron"><a href="">Claron</a></li>
-      <li class="btn btn-link btn-small btn-link-freespira"><a href="">Freespira</a></li>
-      <li class="btn btn-link btn-small btn-link-gokada"><a href="">Gokada</a></li>
-      <li class="btn btn-link btn-small btn-link-nike"><a href="">Nike</a></li>
-      <li class="btn btn-link btn-small btn-red-filled btn-link-contact-us"><a href="">Contact Us</a></li>
-    </ul>
-    <ul class="section-header-mobile-nav">
-      <li class="btn btn-link btn-small btn-link-logo"><a href="">ZeroDark</a></li>
-      <li class="btn btn-link btn-small btn-link-menu"><a href="">Menu</a></li>
-    </ul>
-  </header>
+  <div class="zerodark-header-container">
+      <header class="zerodark-header">
+      <ul class="section-header-desktop-nav">
+        <li class="btn btn-link btn-small btn-link-logo"><a href="">ZeroDark</a></li>
+        <li class="btn btn-link btn-small btn-link-claron"><a href="">Claron</a></li>
+        <li class="btn btn-link btn-small btn-link-freespira"><a href="">Freespira</a></li>
+        <li class="btn btn-link btn-small btn-link-gokada"><a href="">Gokada</a></li>
+        <li class="btn btn-link btn-small btn-link-nike"><a href="">Nike</a></li>
+        <li class="btn btn-link btn-small btn-red-filled btn-link-contact-us"><a href="">Contact Us</a></li>
+      </ul>
+      <ul class="section-header-mobile-nav">
+        <li class="btn btn-link btn-small btn-link-logo"><a href="">ZeroDark</a></li>
+        <li class="btn btn-link btn-small btn-link-menu"><a href="">Menu</a></li>
+      </ul>
+    </header>
+  </div>
 
-  <section class="section section-hero">
-      <h5 class="font-white">Transforming your ideas into customer-centered digital solutions</h5>
+  <section class="section-hero">
+    <h5 class="font-white">Transforming your ideas into customer-centered digital solutions</h5>
     <h1 class="font-white">Digital Product Management For Your Business</h1>
     <a href="" class="btn btn-primary btn-link btn-red-filled btn-link-lets-build"> Build With Us</a>
   </section>
@@ -29,60 +31,58 @@
     </h2>
   </section>
 
-  <section class="section section-services-detail">
-    <div class="section-services-detail-row">
-      <div class="services-detail-container">
-        <p class="services-detail-title">
+  <div class="zerodark-services-detail-container">
+      <section class="section-services-detail">
+              <div class="services-detail-container">
+        <div class="services-detail-title">
           We Strategize Solutions
-        </p>
+        </div>
         <img src="assets/imgs/icons/services-strategy-icon.svg" alt="" class="services-detail-icon">
-        <p class="services-detail-description">
+        <div class="services-detail-description">
           Without strategy, your solution will not go far. We need to create alignment and understand your vision. Then
           we
           can craft a custom roadmap. Don’t worry, we’ll help you along the journey.
-        </p>
+        </div>
       </div>
 
       <div class="services-detail-container">
-        <p class="services-detail-title">
+        <span class="services-detail-title">
           We Design Solutions
-        </p>
+        </span>
         <img src="assets/imgs/icons/services-design-icon.svg" alt="" class="services-detail-icon">
-        <p class="services-detail-description">
+        <span class="services-detail-description">
           Without strategy, your solution will not go far. We need to create alignment and understand your vision. Then
           we
           can craft a custom roadmap. Don’t worry, we’ll help you along the journey.
-        </p>
+        </span>
       </div>
-    </div>
 
-    <div class="section-services-detail-row">
       <div class="services-detail-container">
-        <p class="services-detail-title">
+        <span class="services-detail-title">
           We Validate Solutions
-        </p>
+        </span>
         <img src="assets/imgs/icons/services-validation-icon.svg" alt="" class="services-detail-icon">
-        <p class="services-detail-description">
+        <span class="services-detail-description">
           After designing and building one or multiple solutions, we test whether it works or not. Before we ask you to
           spend tons of money implementing the solution, we’ll validate an MVP or prototype with your customers and your
           team.
-        </p>
+        </span>
       </div>
 
       <div class="services-detail-container">
-        <p class="services-detail-title">
+        <span class="services-detail-title">
           We Help Launch Solutions
-        </p>
+        </span>
         <img src="assets/imgs/icons/services-launch-icon.svg" alt="" class="services-detail-icon">
-        <p class="services-detail-description">
+        <span class="services-detail-description">
           We help you manage the development and implementation cycles, so you don’t have to deal with all that stress.
           The final stage is making sure that the solution is launched and presented to your customers: we assisst with
           that too.
-        </p>
+        </span>
       </div>
-    </div>
 
   </section>
+  </div>
 
   <section class="section section-process">
     <h5> How We Do It </h5>
