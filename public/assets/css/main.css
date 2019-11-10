@@ -427,9 +427,16 @@ h5 {
 /* Select Clients
 ========================================================================== */
 .section-select-clients {
+    
+    width: var(--width-percent);
+    max-width: var(--width-pixel);
+    margin: auto;
+}
+
+.section-select-clients-container{
     background: #0F0E0E;
-    height: auto;
     color: #FDFDFD;
+    padding: 120px 0px; 
 }
 
 .select-clients-row:first-of-type {
@@ -463,20 +470,34 @@ h5 {
 
 /* Footer
 ========================================================================== */
-.section-footer {
+
+.section-footer-container{
     background: #FDFDFD;
-    height: auto;
-    padding-bottom: 0;
+    padding-top: 110px;
+}
+
+.section-footer {
+  
+    width: var(--width-percent);
+    max-width: var(--width-pixel);
+    margin: auto;
 }
 
 .section-footer .btn-primary {
     margin: 50px 0;
 }
 
+.section-footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+
 .footer-links {
     height: 150px;
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
     border-top: 1px solid rgba(48, 48, 48, .1);
     justify-content: space-between;
 }

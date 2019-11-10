@@ -130,7 +130,8 @@
 
 </div>
 
-  <section class="section section-select-clients">
+  <div class="section-select-clients-container">
+    <section class="section-select-clients">
     <h5> Who We've Worked With </h5>
     <h2>
       We have partnered with some amazing clients in recent years.
@@ -162,6 +163,7 @@
       </div>
     </div>
   </section>
+  </div>
 </div>
 </template>
 
