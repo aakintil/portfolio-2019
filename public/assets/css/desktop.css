@@ -24,16 +24,8 @@
         height: 300px;
     }
 
-    .section-case-studies-row:last-of-type {
-        margin-top: 600px;
-    }
-
     .case-study-title {
         margin: 80px 0;
-    }
-
-    .section-case-studies-container {
-        height: 1150px;
     }
 }
 
@@ -101,22 +93,14 @@
     .section-case-studies-row {
         display: flex;
         justify-content: space-between;
-        padding: 50px 0;
-        position: absolute;
-        left: 0;
+        padding: 0px 0 50px;
         width: 100%;
         flex-direction: row;
     }
 
-    .section-case-studies-container {
-        height: 500px;
-        ;
-    }
-
     .section-case-studies-row:last-of-type {
-        margin-top: 350px;
+        padding: 0px;
     }
-
 
     .case-study {
         width: 48%;

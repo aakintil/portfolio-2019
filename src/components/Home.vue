@@ -23,19 +23,21 @@
     <a href="" class="btn btn-primary btn-link btn-red-filled btn-link-lets-build"> Build With Us</a>
   </section>
 
-  <section class="section section-services">
-    <div class="section-services-overlay"></div>
+<div class="zerodark-section-services-container">
+    <section class="section-services">
+    
     <h5 class="font-white"> What We Do </h5>
     <h2 class="font-white">
       Manage the development of global solutions: products, services, organizations, interactions, and experiences. Ensuring that your solutions end up saving you money.
     </h2>
   </section>
+</div>
 
   <div class="zerodark-services-detail-container">
       <section class="section-services-detail">
               <div class="services-detail-container">
         <div class="services-detail-title">
-          We Strategize Solutions
+          <span>01</span> - We Strategize Solutions
         </div>
         <img src="assets/imgs/icons/services-strategy-icon.svg" alt="" class="services-detail-icon">
         <div class="services-detail-description">
@@ -46,45 +48,45 @@
       </div>
 
       <div class="services-detail-container">
-        <span class="services-detail-title">
-          We Design Solutions
-        </span>
+        <div class="services-detail-title">
+          <span>02</span> - We Design Solutions
+        </div>
         <img src="assets/imgs/icons/services-design-icon.svg" alt="" class="services-detail-icon">
-        <span class="services-detail-description">
+        <div class="services-detail-description">
           Without strategy, your solution will not go far. We need to create alignment and understand your vision. Then
           we
           can craft a custom roadmap. Don’t worry, we’ll help you along the journey.
-        </span>
+        </div>
       </div>
 
       <div class="services-detail-container">
-        <span class="services-detail-title">
-          We Validate Solutions
-        </span>
+        <div class="services-detail-title">
+          <span>03</span> - We Validate Solutions
+        </div>
         <img src="assets/imgs/icons/services-validation-icon.svg" alt="" class="services-detail-icon">
-        <span class="services-detail-description">
+        <div class="services-detail-description">
           After designing and building one or multiple solutions, we test whether it works or not. Before we ask you to
           spend tons of money implementing the solution, we’ll validate an MVP or prototype with your customers and your
           team.
-        </span>
+        </div>
       </div>
 
       <div class="services-detail-container">
-        <span class="services-detail-title">
-          We Help Launch Solutions
-        </span>
+        <div class="services-detail-title">
+          <span>04</span> - We Help Launch Solutions
+        </div>
         <img src="assets/imgs/icons/services-launch-icon.svg" alt="" class="services-detail-icon">
-        <span class="services-detail-description">
+        <div class="services-detail-description">
           We help you manage the development and implementation cycles, so you don’t have to deal with all that stress.
           The final stage is making sure that the solution is launched and presented to your customers: we assisst with
           that too.
-        </span>
+        </div>
       </div>
 
   </section>
   </div>
 
-  <section class="section section-process">
+  <section class="section-process">
     <h5> How We Do It </h5>
     <h2>
       There’s a method to the madness. In order to provide the best solutions, we need to set expectations and
@@ -93,13 +95,15 @@
     <img src="assets/imgs/icons/process-icon.png" alt="" class="section-process-image">
   </section>
 
-  <section class="section section-case-studies">
+<div class="zerodark-section-case-studies-parent">
+    <section class="section-case-studies-header">
     <h5> Why Work With Us </h5>
     <h2>
       Checkout some select case studies from previous engagements.
     </h2>
+  </section>
 
-    <div class="section-case-studies-container">
+  <div class="section-case-studies-container">
       <div class="section-case-studies-row">
         <a href="" class="case-study case-study-claron">
           <p class="case-study-title">Claron</p>
@@ -124,8 +128,7 @@
       </div>
     </div>
 
-
-  </section>
+</div>
 
   <section class="section section-select-clients">
     <h5> Who We've Worked With </h5>
