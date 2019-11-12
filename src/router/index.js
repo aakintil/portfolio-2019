@@ -3,6 +3,10 @@ import Router from 'vue-router';
 import NProgress from 'nprogress';
 //import * as ninja from '@/assets/js/worker';
 import Home from '@/components/Home.vue';
+//import Vue from 'vue'
+import VueAnime from 'vue-animejs'
+
+Vue.use(VueAnime)
 //import Register from '@/components/Register.vue';
 
 
@@ -31,6 +35,7 @@ router.beforeResolve((to, from, next) => {
   if (to.name) {
     // hide the notifcation bar before re-routing
     //ninja.hideNotification();
+    document.getElementsByClassName('zerodark-cloak-cover')[0].setAttribute('v-cloak', '');
     NProgress.start();
   }
   next();
@@ -38,6 +43,7 @@ router.beforeResolve((to, from, next) => {
 
 // eslint-disable-next-line no-unused-vars
 router.afterEach((to, from) => {
+  document.getElementsByClassName('zerodark-cloak-cover')[0].removeAttribute('v-cloak');
   NProgress.done();
 });
 

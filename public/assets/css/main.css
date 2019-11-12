@@ -7,6 +7,24 @@
     --services-width-pixel: 1000px;
 }
 
+[v-cloak] > * { 
+    display:none;
+position: relative; }
+
+[v-cloak]::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/home/rings.svg);
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+  }
+
 /* Fonts
    ========================================================================== */
 
@@ -46,6 +64,11 @@
 body {
     background: #0F0E0E;
     font-family: "EuclidSquare";
+}
+
+
+body, html{
+    min-height: 100%;
 }
 
 * {
@@ -217,7 +240,7 @@ h5 {
     max-width: var(--width-pixel);
     margin: auto;
     margin-top: 104px;
-    height: calc(90vh - 90px);
+    height: 0px;
     justify-content: center;
     display: flex;
     flex-direction: column;

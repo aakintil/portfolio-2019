@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
   <div class="zerodark-header-container">
       <header class="zerodark-header">
       <ul class="section-header-desktop-nav">
@@ -168,12 +168,40 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueAnime from 'vue-animejs'
+
+Vue.use(VueAnime)
+
 export default {
   name: 'Home',
   props: {
     msg: String
+  },
+  msg: 'ZeroDark',
+  methods:{
+    runAnimations(){
+      this.$anime.timeline().add({
+        targets: '.section-hero',
+        height: '80vh',
+        elasticity: 300,
+      })
+    }
+  },
+  watch: {
+    //this.runAnimations();
+  },
+  mounted() {
+    //console.log("burst")
+    this.runAnimations()
+    //this.$refs.cloakguy.style.display = "block";
+    
+    
   }
 }
+
+//Vue.use(VueAnime)
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
