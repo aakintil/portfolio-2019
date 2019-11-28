@@ -1,0 +1,12 @@
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .section {
+        padding: 100px 100px;
+    }
+
+    .section-footer {
+        padding-bottom: 0;
+    }
+
+}
