@@ -6,10 +6,24 @@ setTimeout(function() {
   //your code to be executed after 1 second
   //runAnimations();
   document.getElementsByClassName('zerodark-cloak-cover')[0].removeAttribute('v-cloak');
-  runAnimations()
+  runAnimations();
 }, delayInMilliseconds);
 
+
 });
+
+$(window).scroll(function() {
+  var hT = ($('.zerodark-section-services-container').offset().top),
+      hH = $('.zerodark-section-services-container').outerHeight() + 150,
+      wH = $(window).height(),
+      wS = $(this).scrollTop();
+  if (wS > (hT+hH-wH)){
+    console.log("balls");
+    valuesScrollAnimation.play();
+  }
+});
+
+
 
 
 function removeVeil(){
@@ -22,11 +36,20 @@ function runAnimations(){
     height: '80vh',
     elasticity: 600,
     opacity: [0, 1],
-    duration: 2500,
   }).add({
     targets: '.zerodark-section-services-container',
     opacity: [0, 1],
-    duration: 2500,
-    easing: 'spring(1, 80, 10, 0)',
+    easing: 'easeInSine'
   })
+}
+
+var valuesScrollAnimation = anime({
+  targets: '.zerodark-services-detail-container',
+  opacity: [0, 1],
+  autoplay: false,
+  easing: 'easeInSine'
+});
+
+function showValuesOnScroll(){
+
 }
