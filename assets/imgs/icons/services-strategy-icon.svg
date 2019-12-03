@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="323px" height="155px" viewBox="0 0 323 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>services-strategy-icon</title>
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 17</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="services-strategy-icon" transform="translate(1.000000, 1.000000)" stroke="#000000" stroke-width="2.45000005">
-            <path d="M5.47692153,7.65941136 C130.144186,7.65941136 192.477819,7.65941136 192.477819,7.65941136 C231.671819,7.65941136 231.671819,72.1746683 192.477819,72.1746683 C192.477819,72.1746683 59.0594589,72.1746683 59.0594589,72.1746683 C14.4862098,72.1746683 14.4862098,141.429414 59.0594589,141.429414 C59.0594589,141.429414 142.301948,141.429414 308.786927,141.429414" id="Path-6"></path>
-            <circle id="Oval" fill="#1C1B1B" fill-rule="nonzero" cx="5.23500412" cy="7.51504416" r="4.9000001"></circle>
-            <circle id="Oval-Copy-11" fill="#1C1B1B" fill-rule="nonzero" cx="131.165007" cy="7.51504416" r="6.86000013"></circle>
-            <circle id="Oval-Copy-12" fill="#1C1B1B" fill-rule="nonzero" cx="219.120008" cy="40.1000448" r="8.57500017"></circle>
-            <circle id="Oval-Copy-13" fill="#1C1B1B" fill-rule="nonzero" cx="50.560005" cy="74.4000455" r="8.57500017"></circle>
-            <circle id="Oval-Copy-14" fill="#1C1B1B" fill-rule="nonzero" cx="131.410007" cy="141.530047" r="11.0250002"></circle>
-            <circle id="Oval-Copy-10" fill="#000000" fill-rule="nonzero" cx="308.79001" cy="141.530047" r="11.0250002"></circle>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zerodark-home-desktop-copy-5" transform="translate(-219.000000, -2257.000000)" stroke="#FFFFFF" stroke-width="2.45000005">
+            <g id="Group-20" transform="translate(4.000000, 0.000000)">
+                <g id="Group-17" transform="translate(215.110004, 2257.430044)">
+                    <path d="M6.36691753,8.22936736 C131.034182,8.22936736 193.367815,8.22936736 193.367815,8.22936736 C232.561815,8.22936736 232.561815,72.7446243 193.367815,72.7446243 C193.367815,72.7446243 59.9494549,72.7446243 59.9494549,72.7446243 C15.3762058,72.7446243 15.3762058,141.99937 59.9494549,141.99937 C59.9494549,141.99937 143.191944,141.99937 309.676923,141.99937" id="Path-6"></path>
+                    <circle id="Oval" fill="#1C1B1B" cx="6.12500012" cy="8.08500016" r="4.9000001"></circle>
+                    <circle id="Oval-Copy-11" fill="#1C1B1B" cx="132.055003" cy="8.08500016" r="6.86000013"></circle>
+                    <circle id="Oval-Copy-12" fill="#1C1B1B" cx="220.010004" cy="40.6700008" r="8.57500017"></circle>
+                    <circle id="Oval-Copy-13" fill="#1C1B1B" cx="51.450001" cy="74.9700015" r="8.57500017"></circle>
+                    <circle id="Oval-Copy-14" fill="#1C1B1B" cx="132.300003" cy="142.100003" r="11.0250002"></circle>
+                    <circle id="Oval-Copy-10" fill="#FFFFFF" cx="309.680006" cy="142.100003" r="11.0250002"></circle>
+                </g>
+            </g>
         </g>
     </g>
 </svg>
