@@ -14,19 +14,29 @@ setTimeout(function() {
 
 $(window).scroll(function() {
   var hT = ($('.zerodark-section-services-container').offset().top),
-      hH = $('.zerodark-section-services-container').outerHeight() + 150,
+      hH = $('.zerodark-section-services-container').outerHeight() + 250,
       wH = $(window).height(),
       wS = $(this).scrollTop();
   if (wS > (hT+hH-wH)){
     console.log("balls");
-    valuesScrollAnimation.play();
+    removeVeil();
+    //valuesScrollAnimation.play();
   }
 });
 
 
-
+var showServices = false;
 
 function removeVeil(){
+  //valuesScrollAnimation.play();
+  if (!showServices){
+    anime({
+      targets: '.zerodark-services-detail-container',
+      opacity: [0, 1],
+      easing: 'easeInSine'
+    });
+    showServices = true;
+  }
 
 }
 
