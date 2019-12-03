@@ -29,12 +29,28 @@ $(window).scroll(function() {
     removeProcessVeil()
   }
 
+  var chT = ($('.zerodark-section-case-studies-parent').offset().top),
+      chH = $('.zerodark-section-case-studies-parent').outerHeight() - $('.section-case-studies-container').outerHeight(),
+      cwH = $(window).height(),
+      cwS = $(this).scrollTop();
+  if (cwS > (chT+chH-cwH)){
+    removeWorksVeil()
+  }
+
+  var chT = ($('.section-select-clients-container').offset().top),
+    chH = $('.section-select-clients-container').outerHeight() - $('.select-clients-row').outerHeight(),
+    cwH = $(window).height(),
+    cwS = $(this).scrollTop();
+  if (cwS > (chT+chH-cwH)){
+    removeClientsVeil();
+  }
 });
 
 
 var showServices = false;
 var showProcess = false;
-
+var showWorks = false;
+var showClients = false;
 
 function removeProcessVeil(){
   if (!showProcess){
@@ -50,6 +66,38 @@ function removeProcessVeil(){
       delay: anime.stagger(100, {easing: 'easeOutQuad'})
     });
     showProcess = true;
+  }
+}
+
+function removeClientsVeil(){
+  if (!showClients){
+    anime.timeline().add({
+      targets: '.section-select-clients-container',
+      opacity: [0, 1],
+      easing: 'easeInSine'
+    })
+    showClients = true;
+  }
+}
+
+function removeWorksVeil(){
+  if (!showWorks){
+    anime.timeline().add({
+      targets: '.zerodark-section-case-studies-parent',
+      opacity: [0, 1],
+      duration: 800,
+      easing: 'easeInSine'
+    }).add({
+      targets: '.case-study',
+      opacity: [0, 1],
+      elasticity: 500,
+      scale: [
+        {value: 1.5, easing: 'easeOutSine', duration: 200},
+        {value: 1, easing: 'easeOutSine', duration: 200}
+      ],
+      delay: anime.stagger(100)
+    }, '+=100');
+    showWorks = true;
   }
 }
 
@@ -81,7 +129,7 @@ function runAnimations(){
     targets: '.zerodark-section-services-container',
     opacity: [0, 1],
     easing: 'easeInSine'
-  })
+  }, '-=400');
 }
 
 var valuesScrollAnimation = anime({
