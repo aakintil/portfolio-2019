@@ -263,18 +263,61 @@ h5 {
     max-width: var(--width-pixel);
     margin: auto;
     font-weight: 300;
+    font-size: 18px;
+}
+
+.zerodark-portfolio-content-image{
+    margin-bottom: 100px;
+}
+
+.zerodark-portfolio-content-text{
+    margin: auto;
+    margin-bottom: 100px;
+    line-height: 1.8;
+    width: 90%;
+    display: flex;
+    font-size: 18px;
+}
+
+.zerodark-portfolio-content-image img{
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,.6);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,.6);
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.6);
 }
 
 .zerodark-portfolio-content-header{
     display: flex;
+    line-height: 1.8;
+    margin-bottom: 100px;
 }
 
 .zerodark-portfolio-content-45{
     width: 50%;
+    flex: 0 0 50%;
+    padding-right: 60px;
+}
+
+.zerodark-portfolio-content-text .zerodark-portfolio-content-text-header{
+    font-weight: bold;
+}
+
+.zerodark-portfolio-content-text .zerodark-portfolio-content-45:last-of-type{
+    padding-right: 0px;
 }
 
 .zerodark-portfolio-content-25{
     width: 25%;
+    flex: 0 0 25%;
+}
+
+.zerodark-portfolio-content-25 span{
+    display: block;
+}
+
+.zerodark-portfolio-content-25 span:first-of-type{
+    font-weight: bold;
 }
 
 .section-hero.portfolio{

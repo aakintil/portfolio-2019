@@ -12,7 +12,8 @@ setTimeout(function() {
 });
 
 $(window).scroll(function() {
-  var hT = ($('.zerodark-section-services-container').offset().top),
+  if ($(".zerodark-section-services-container").length != 0){
+    var hT = ($('.zerodark-section-services-container').offset().top),
       hH = $('.zerodark-section-services-container').outerHeight() + 250,
       wH = $(window).height(),
       wS = $(this).scrollTop();
@@ -43,6 +44,7 @@ $(window).scroll(function() {
     cwS = $(this).scrollTop();
   if (cwS > (chT+chH-cwH)){
     removeClientsVeil();
+  }
   }
 });
 
