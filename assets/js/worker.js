@@ -121,8 +121,19 @@ function removeVeil(){
 
 function runAnimations(){
   anime.timeline().add({
-    targets: '.section-hero',
+    targets: '.section-hero-home',
     height: '80vh',
+    elasticity: 600,
+    opacity: [0, 1],
+  }).add({
+    targets: '.zerodark-section-services-container',
+    opacity: [0, 1],
+    easing: 'easeInSine'
+  }, '-=400');
+
+  anime.timeline().add({
+    targets: '.section-hero-portfolio',
+    height: '70vh',
     elasticity: 600,
     opacity: [0, 1],
   }).add({

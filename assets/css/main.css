@@ -233,6 +233,10 @@ h5 {
     font-weight: 700;
 }
 
+.zerodark-header .btn-link>a.selected{
+    border-bottom: 1px solid #ffffff;
+}
+
 
 
 /* Hero
@@ -247,6 +251,42 @@ h5 {
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.zerodark-portfolio-holder{
+    background: #f5f5f5;
+    padding: 50px 0px;
+}
+
+.zerodark-portfolio-content{
+    width: var(--width-percent);
+    max-width: var(--width-pixel);
+    margin: auto;
+    font-weight: 300;
+}
+
+.zerodark-portfolio-content-header{
+    display: flex;
+}
+
+.zerodark-portfolio-content-45{
+    width: 50%;
+}
+
+.zerodark-portfolio-content-25{
+    width: 25%;
+}
+
+.section-hero.portfolio{
+align-items: center;
+}
+
+.section-hero.portfolio h1{
+    text-align: center;
+}
+
+.section-hero.portfolio img{
+    height: 300px;
 }
 
 .section-hero h1{
@@ -436,9 +476,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c3a3a",endCo
     left: 0;
 }
 
-.case-study-gokada {
+.case-study-gokada, .case-study-main-gokada {
     background: #67C198;
 }
+
 
 
 .case-study-claron {
